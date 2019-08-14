@@ -24,6 +24,7 @@
         <td><%= restaurant.address %></td>
         <td><%= restaurant.category %></td>
         <td><%= link_to 'Show', restaurant_path(restaurant) %></td>
+        <td><%= link_to 'Write review', new_restaurant_review_path(restaurant) %></td>
       </tr>
     <% end %>
   </tbody>
